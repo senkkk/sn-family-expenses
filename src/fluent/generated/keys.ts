@@ -92,6 +92,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '2204c757132b406988eaa889cc45378f'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            element: 'NULL'
+                            language: 'ja'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '222aa093da184daba38c066cba49407d'
                         deleted: true
@@ -99,6 +108,24 @@ declare global {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'status'
                             value: 'canceled'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '22c3f620a895415da171d404d421bf42'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            element: 'amount'
+                            language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '239094b57d7f472b971ebf1d99fe6208'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'state'
+                            language: 'ja'
                         }
                     },
                     {
@@ -111,11 +138,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '26ac4718dd7d41878806de95a795852f'
+                        key: {
+                            name: 'x_144721_family_ex_expense_share'
+                            element: 'expense_line'
+                            language: 'ja'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '281d4a73de4343d28b81805e80249250'
                         key: {
                             name: 'x_144721_family_ex_expense_line'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '2921091efc7947c290a9ae8473bf42cb'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'assigned_to'
+                            language: 'en'
                         }
                     },
                     {
@@ -135,6 +180,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '347c7cd8d7c94295a6149761847263d8'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            element: 'description'
+                            language: 'ja'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary_override'
                         id: '35bb3284fdca40b59dde61cd01a59601'
                         key: {
@@ -148,6 +202,24 @@ declare global {
                         key: {
                             name: 'x_144721_family_ex_expense_line'
                             element: 'request'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '3cf23042819e42c99af773695cd3f6b0'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            element: 'request'
+                            language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '3f2d9522336d422fbc42c4042592da63'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'state'
                             language: 'en'
                         }
                     },
@@ -178,6 +250,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '4abd203c50a14a4981a2a42eb51ed698'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'active'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '4f91b104ab7c4b89a7c4fa8d590c1fe6'
                         key: {
@@ -186,11 +267,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '50851f69fad14e5788493a3dee88cff0'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            element: 'paid_by'
+                            language: 'ja'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '53137bb08212402584ae2c010bb9caa9'
                         key: {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '54cd7af15d2b4c97a405869d8f1397f9'
+                        key: {
+                            name: 'x_144721_family_ex_expense_share'
+                            element: 'notes'
+                            language: 'ja'
                         }
                     },
                     {
@@ -204,6 +303,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '6c2d96cde04c4e33a829e29da05b3a11'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'NULL'
+                            language: 'ja'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '6ff56f8526a44453896a89be1c222b81'
                         deleted: true
@@ -214,10 +322,28 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: '701a341b0a7548aa8f539af25543803f'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            element: 'expense_date'
+                            language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: '73b4f1f755b046a0a59fc3e2fd1092ca'
                         key: {
                             name: 'x_144721_family_ex_expense_share'
                             element: 'member'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '7891c4f8e62848a880edcfd568c89e68'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'short_description'
                             language: 'en'
                         }
                     },
@@ -243,6 +369,15 @@ declare global {
                         id: '7cbe74fb65974d5ab8d5caad2cbb576e'
                         key: {
                             name: 'x_144721_family_ex_expense_line'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '8410df98038c429bb079419a6a2eb932'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'requested_by'
+                            language: 'en'
                         }
                     },
                     {
@@ -304,11 +439,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '9a957c56627b4e3691bd4736ba3e7a62'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'short_description'
+                            language: 'ja'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '9af547e3c3ac4d4ba41a6f7543b0bcfa'
                         key: {
                             name: 'x_144721_family_ex_expense_line'
                             element: 'amount'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '9c0b5ade65214c89af85864f4480c991'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'requested_by'
+                            language: 'ja'
                         }
                     },
                     {
@@ -359,6 +512,15 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: 'a1e313d27e994c25996c3ea5d9c711b9'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            element: 'notes'
+                            language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: 'a1ece5c1f51f40fa9070ee03a7d3184c'
                         deleted: true
                         key: {
@@ -402,6 +564,33 @@ declare global {
                             name: 'x_144721_family_ex_expense_line'
                             element: 'amount'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'aa7e669799c7427fa22056c1d1319459'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'assigned_to'
+                            language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'ae53c568ed324a9f92accda5c856f10c'
+                        key: {
+                            name: 'x_144721_family_ex_expense_share'
+                            element: 'share_amount'
+                            language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'b0b09ad3cc724210949b24f119c9537b'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'active'
+                            language: 'ja'
                         }
                     },
                     {
@@ -507,6 +696,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: 'e01ac326306f44c0bfbcae995ddd7205'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            element: 'notes'
+                            language: 'ja'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'e161621ee8ee43bba3926742fc6ce8a0'
                         deleted: true
@@ -514,6 +712,24 @@ declare global {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'status'
                             value: 'submitted'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'e5cae70ce2644aa49906012c6f51fbf2'
+                        key: {
+                            name: 'x_144721_family_ex_expense_share'
+                            element: 'NULL'
+                            language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'e8233f4c1cf64a19944b0c05fc90718b'
+                        key: {
+                            name: 'x_144721_family_ex_expense_share'
+                            element: 'member'
+                            language: 'ja'
                         }
                     },
                     {
