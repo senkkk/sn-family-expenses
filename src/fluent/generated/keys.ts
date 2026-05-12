@@ -48,6 +48,94 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_form_section'
+                        id: '085d8ce19e514ba281ad273f4d0fe2c0'
+                        key: {
+                            sys_ui_form: {
+                                id: 'd0ba3de426d44bad9b10a9fb8cff6883'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            sys_ui_section: {
+                                id: 'dc689ba82fb640ba9c2e180e6bb9920a'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Shares'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '0866b3d1ef49468ea1d411a951c0e069'
+                        key: {
+                            sys_ui_section: {
+                                id: '438229533b364d1293f36a2f13e28ae5'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'description'
+                            position: '3'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_form_section'
+                        id: '0a56efe67a6548e4beb1f65fb049de94'
+                        key: {
+                            sys_ui_form: {
+                                id: 'c81e88aa89f44264bf62e1b4f978c629'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            sys_ui_section: {
+                                id: '65dd78daffb0434bbf404429ce841c82'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Expense Lines'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '0b672f90c43a40818af424ba46a0d6ff'
                         key: {
@@ -56,11 +144,96 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: '0ca5aa25d4134d18a0e8026db0570254'
+                        key: {
+                            list_id: {
+                                id: 'bff4c339d5424e64943c8238675595c6'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'paid_by'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '0cdf7a65459d4c0ea35d41a7a6761774'
                         key: {
                             name: 'x_144721_family_ex_expense_line'
                             element: 'notes'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list'
+                        id: '0d611cdc8d4a4ff7b9b607febd5f6c00'
+                        key: {
+                            name: 'x_144721_family_ex_expense_share'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                            element: 'NULL'
+                            relationship: 'NULL'
+                            parent: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '0ff133c6f2254f3e9ae367a4c0a13c00'
+                        key: {
+                            sys_ui_section: {
+                                id: 'dc689ba82fb640ba9c2e180e6bb9920a'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Shares'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '12M.x_144721_family_ex_expense_line.x_144721_family_ex_expense_share.expense_line'
+                            position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '1022de2c7e7944a284b875d007e434fc'
+                        key: {
+                            list_id: {
+                                id: 'd72cc7161de54b4284604949fe50e5ea'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'x_144721_family_ex_expense_line'
+                                }
+                            }
+                            element: 'share_amount'
                         }
                     },
                     {
@@ -80,6 +253,79 @@ declare global {
                             name: 'x_144721_family_ex_expense_line'
                             element: 'notes'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list'
+                        id: '1773498c40224103801eb7d2a9cbaea2'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                            element: 'NULL'
+                            relationship: 'NULL'
+                            parent: 'x_144721_family_ex_reimbursement_request'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_form_section'
+                        id: '1928727621e54970b30f807c52b9b356'
+                        key: {
+                            sys_ui_form: {
+                                id: 'd0ba3de426d44bad9b10a9fb8cff6883'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            sys_ui_section: {
+                                id: '438229533b364d1293f36a2f13e28ae5'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '1b9cd2c615d54f5799d9ef8e86218169'
+                        key: {
+                            list_id: {
+                                id: '0d611cdc8d4a4ff7b9b607febd5f6c00'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'expense_line'
                         }
                     },
                     {
@@ -147,11 +393,49 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: '27ecd9e3950348b6a23e69133c8186e5'
+                        key: {
+                            list_id: {
+                                id: '1773498c40224103801eb7d2a9cbaea2'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'x_144721_family_ex_reimbursement_request'
+                                }
+                            }
+                            element: 'notes'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '281d4a73de4343d28b81805e80249250'
                         key: {
                             name: 'x_144721_family_ex_expense_line'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: '285dc414a3e443ddb945986defb138b3'
+                        key: {
+                            name: 'x_144721_family_ex_expense_share'
+                            caption: 'Share Details'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
                         }
                     },
                     {
@@ -197,6 +481,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: '36f018ff37d048d883f2c2079b865ee4'
+                        key: {
+                            list_id: {
+                                id: 'bff4c339d5424e64943c8238675595c6'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'amount'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '3c092f3ab5b74fe597cfcd4ac741a784'
                         key: {
@@ -215,6 +522,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: '3e4835d2efda49999b0aaeb8e7d08715'
+                        key: {
+                            list_id: {
+                                id: '1773498c40224103801eb7d2a9cbaea2'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'x_144721_family_ex_reimbursement_request'
+                                }
+                            }
+                            element: 'paid_by'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '3f2d9522336d422fbc42c4042592da63'
                         key: {
@@ -229,6 +559,51 @@ declare global {
                         key: {
                             name: 'x_144721_family_ex_expense_line'
                             element: 'description'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '422ff888108f4bcf8ba19c9da3d09029'
+                        key: {
+                            list_id: {
+                                id: '1773498c40224103801eb7d2a9cbaea2'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'x_144721_family_ex_reimbursement_request'
+                                }
+                            }
+                            element: 'amount'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '429013c5e4ae4ed595c99e30e99f3cba'
+                        key: {
+                            sys_ui_section: {
+                                id: '285dc414a3e443ddb945986defb138b3'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    caption: 'Share Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'notes'
+                            position: '6'
                         }
                     },
                     {
@@ -250,12 +625,94 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_section'
+                        id: '438229533b364d1293f36a2f13e28ae5'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            caption: 'Expense Details'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '46804aaccd314a3db13d461aeff6aae4'
+                        key: {
+                            sys_ui_section: {
+                                id: '438229533b364d1293f36a2f13e28ae5'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'notes'
+                            position: '8'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '46a98ea6a5604c04b279c80c806904f6'
+                        key: {
+                            list_id: {
+                                id: '0d611cdc8d4a4ff7b9b607febd5f6c00'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'share_amount'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '4abd203c50a14a4981a2a42eb51ed698'
                         key: {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'active'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4d2da23baf804c2da7780987dbc8c1e5'
+                        key: {
+                            sys_ui_section: {
+                                id: '438229533b364d1293f36a2f13e28ae5'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.split'
+                            position: '4'
                         }
                     },
                     {
@@ -284,12 +741,74 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list'
+                        id: '544b9ce433f5414385b751cd5e7cfbe3'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                            element: 'NULL'
+                            relationship: 'NULL'
+                            parent: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '54cd7af15d2b4c97a405869d8f1397f9'
                         key: {
                             name: 'x_144721_family_ex_expense_share'
                             element: 'notes'
                             language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '58effc2dee4e4b648e2004acec389c97'
+                        key: {
+                            sys_ui_section: {
+                                id: '438229533b364d1293f36a2f13e28ae5'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'paid_by'
+                            position: '5'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '5a54eccd273b4099b85b2ee13aac397f'
+                        key: {
+                            list_id: {
+                                id: '544b9ce433f5414385b751cd5e7cfbe3'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'state'
                         }
                     },
                     {
@@ -303,12 +822,163 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: '5c425e6a24674fcab051c27fd8d0c8d7'
+                        key: {
+                            list_id: {
+                                id: '0d611cdc8d4a4ff7b9b607febd5f6c00'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'member'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '5d8d0990ea02427dad3a67572389ff1d'
+                        key: {
+                            list_id: {
+                                id: '544b9ce433f5414385b751cd5e7cfbe3'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'active'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '61defb3c82e141b89f8a02f539119fd2'
+                        key: {
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.split'
+                            position: '4'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: '65dd78daffb0434bbf404429ce841c82'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            caption: 'Expense Lines'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '65f8474eab9047e79a5245d252b196ad'
+                        key: {
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'active'
+                            position: '7'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '6c2d96cde04c4e33a829e29da05b3a11'
                         key: {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'NULL'
                             language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '6f695bcd733140de9cc9c79ba16f147d'
+                        key: {
+                            list_id: {
+                                id: '544b9ce433f5414385b751cd5e7cfbe3'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'short_description'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '6fc03158710b4eb899866c9a10fb48d4'
+                        key: {
+                            list_id: {
+                                id: 'bff4c339d5424e64943c8238675595c6'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'description'
                         }
                     },
                     {
@@ -339,6 +1009,50 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '73ee9f50be78492da9f438971fc65f8f'
+                        key: {
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.begin_split'
+                            position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '77c4e87c9d9c4ab0928da86229b23bc3'
+                        key: {
+                            sys_ui_section: {
+                                id: '285dc414a3e443ddb945986defb138b3'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    caption: 'Share Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'share_amount'
+                            position: '4'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '7891c4f8e62848a880edcfd568c89e68'
                         key: {
@@ -357,6 +1071,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '7a3f102183254f9db2c3cb23ebf2a36a'
+                        key: {
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'notes'
+                            position: '9'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '7b727e653b4f4d52a326727638f8cf42'
                         key: {
@@ -372,12 +1108,57 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: '7d5420300f07489685fe44adec33b823'
+                        key: {
+                            list_id: {
+                                id: '544b9ce433f5414385b751cd5e7cfbe3'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'assigned_to'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '8410df98038c429bb079419a6a2eb932'
                         key: {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'requested_by'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '8aa9b66cd112412a94cff38402300d46'
+                        key: {
+                            sys_ui_section: {
+                                id: '438229533b364d1293f36a2f13e28ae5'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.end_split'
+                            position: '7'
                         }
                     },
                     {
@@ -389,6 +1170,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: '8bb8ac2ca84144249a5abf189367c21f'
+                        key: {
+                            list_id: {
+                                id: '0d611cdc8d4a4ff7b9b607febd5f6c00'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'notes'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '8e3bf6853aca423f953922c5f0056500'
                         deleted: true
@@ -396,6 +1200,28 @@ declare global {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'status'
                             value: 'draft'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '8ef9687bc3b64bdc83ba7651e7f1edae'
+                        key: {
+                            sys_ui_section: {
+                                id: '65dd78daffb0434bbf404429ce841c82'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Expense Lines'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '12M.x_144721_family_ex_reimbursement_request.x_144721_family_ex_expense_line.request'
+                            position: '0'
                         }
                     },
                     {
@@ -427,6 +1253,29 @@ declare global {
                         id: '9792b252521a41eb97e6b1f8cfa6ed4b'
                         key: {
                             name: 'x_144721_family_ex_expense_line'
+                            element: 'expense_date'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '9874a229d4d9437f8c577cb4475a4cbe'
+                        key: {
+                            list_id: {
+                                id: 'bff4c339d5424e64943c8238675595c6'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
                             element: 'expense_date'
                         }
                     },
@@ -530,12 +1379,67 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_form_section'
+                        id: 'a21d9ef957bc40c69e2a932e71d237d8'
+                        key: {
+                            sys_ui_form: {
+                                id: 'c81e88aa89f44264bf62e1b4f978c629'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'a53c93454fd54e9fb737a8ff18e3161f'
                         key: {
                             name: 'x_144721_family_ex_expense_share'
                             element: 'NULL'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'a6f333c2838340d99dad84de8ef92418'
+                        key: {
+                            sys_ui_section: {
+                                id: '285dc414a3e443ddb945986defb138b3'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    caption: 'Share Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'member'
+                            position: '2'
                         }
                     },
                     {
@@ -558,6 +1462,51 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: 'a991170d0a96453bbdd0735486b7d8f6'
+                        key: {
+                            list_id: {
+                                id: 'd72cc7161de54b4284604949fe50e5ea'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'x_144721_family_ex_expense_line'
+                                }
+                            }
+                            element: 'notes'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'a9ab675092b44e9cae6208ffa7497b24'
+                        key: {
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'requested_by'
+                            position: '3'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'aa0a6bc875e44148b07a63aae0c536ae'
                         key: {
@@ -567,12 +1516,57 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'aa4732b0965f4faca088a5a63aae1483'
+                        key: {
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'number'
+                            position: '1'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'aa7e669799c7427fa22056c1d1319459'
                         key: {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'assigned_to'
                             language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'abd98892e0614f6a8f10c0924d446b48'
+                        key: {
+                            list_id: {
+                                id: 'd72cc7161de54b4284604949fe50e5ea'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'x_144721_family_ex_expense_line'
+                                }
+                            }
+                            element: 'member'
                         }
                     },
                     {
@@ -591,6 +1585,95 @@ declare global {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'active'
                             language: 'ja'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'b269e9e41dbb490bbb3f3394d1230100'
+                        key: {
+                            list_id: {
+                                id: '1773498c40224103801eb7d2a9cbaea2'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'x_144721_family_ex_reimbursement_request'
+                                }
+                            }
+                            element: 'expense_date'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'b2dfde82c09d4e8a9121eacbd1934ac3'
+                        key: {
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.end_split'
+                            position: '8'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'b3029f636aae4a29aff758d7a42bb407'
+                        key: {
+                            sys_ui_section: {
+                                id: '285dc414a3e443ddb945986defb138b3'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    caption: 'Share Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.begin_split'
+                            position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'b5ca1058682944a093430a390ae2e16e'
+                        key: {
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'assigned_to'
+                            position: '6'
                         }
                     },
                     {
@@ -627,10 +1710,156 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list'
+                        id: 'bff4c339d5424e64943c8238675595c6'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                            element: 'NULL'
+                            relationship: 'NULL'
+                            parent: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: 'c06708db6c1049609d64c30be6e66822'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            caption: 'Request Details'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'c1ed7c043cfc4980a043d54dd2aa1048'
+                        key: {
+                            list_id: {
+                                id: '1773498c40224103801eb7d2a9cbaea2'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'x_144721_family_ex_reimbursement_request'
+                                }
+                            }
+                            element: 'description'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_form_section'
+                        id: 'c20a093bb69b4a2a91c72a8a54131531'
+                        key: {
+                            sys_ui_form: {
+                                id: 'f4cfe00d7f0c4b0c8e3f1378bc0fd5ec'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            sys_ui_section: {
+                                id: '285dc414a3e443ddb945986defb138b3'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    caption: 'Share Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'c2bd9409c3514ecebdffda40655ff69f'
+                        key: {
+                            sys_ui_section: {
+                                id: '285dc414a3e443ddb945986defb138b3'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    caption: 'Share Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.end_split'
+                            position: '5'
+                        }
+                    },
+                    {
                         table: 'sys_db_object'
                         id: 'c55fd818e97c4fb084deea1cf030e976'
                         key: {
                             name: 'x_144721_family_ex_expense_share'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'c68065be74fc4858abb98bac163f2b78'
+                        key: {
+                            sys_ui_section: {
+                                id: '438229533b364d1293f36a2f13e28ae5'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'expense_date'
+                            position: '2'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_form'
+                        id: 'c81e88aa89f44264bf62e1b4f978c629'
+                        key: {
+                            name: 'x_144721_family_ex_reimbursement_request'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
                         }
                     },
                     {
@@ -643,11 +1872,70 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: 'cc5ffe20e4424156843b9ab50f797099'
+                        key: {
+                            list_id: {
+                                id: '544b9ce433f5414385b751cd5e7cfbe3'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'requested_by'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary_override'
                         id: 'cf7d90d00c8f4003a8d737aa224a97d7'
                         key: {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'requested_by'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_form'
+                        id: 'd0ba3de426d44bad9b10a9fb8cff6883'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'd350fc73b67f46c4a39fa908b9e180a7'
+                        key: {
+                            sys_ui_section: {
+                                id: '285dc414a3e443ddb945986defb138b3'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    caption: 'Share Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'expense_line'
+                            position: '1'
                         }
                     },
                     {
@@ -660,6 +1948,45 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'd678e1dd6ee24cfa8821e6f8121cb512'
+                        key: {
+                            sys_ui_section: {
+                                id: '438229533b364d1293f36a2f13e28ae5'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.begin_split'
+                            position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list'
+                        id: 'd72cc7161de54b4284604949fe50e5ea'
+                        key: {
+                            name: 'x_144721_family_ex_expense_share'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                            element: 'NULL'
+                            relationship: 'NULL'
+                            parent: 'x_144721_family_ex_expense_line'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: 'db1da534148b4d3e9ca58eb89cbb1c32'
                         deleted: true
@@ -669,11 +1996,48 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_section'
+                        id: 'dc689ba82fb640ba9c2e180e6bb9920a'
+                        key: {
+                            name: 'x_144721_family_ex_expense_line'
+                            caption: 'Expense Shares'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'dca24297d3ab4b84b37a988d796bd423'
                         key: {
                             name: 'x_144721_family_ex_expense_share'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'dd055dd37695435d86fd44e59edf1adb'
+                        key: {
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'short_description'
+                            position: '2'
                         }
                     },
                     {
@@ -696,6 +2060,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'dfc59792118c468d94c17a4851cfa377'
+                        key: {
+                            sys_ui_section: {
+                                id: '438229533b364d1293f36a2f13e28ae5'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'amount'
+                            position: '6'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'e01ac326306f44c0bfbcae995ddd7205'
                         key: {
@@ -712,6 +2098,29 @@ declare global {
                             name: 'x_144721_family_ex_reimbursement_request'
                             element: 'status'
                             value: 'submitted'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'e338df45eca940398f331e5554e7722f'
+                        key: {
+                            list_id: {
+                                id: '544b9ce433f5414385b751cd5e7cfbe3'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'number'
                         }
                     },
                     {
@@ -733,10 +2142,113 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'eb8bae32431d4290a6a6a09d94bfd8a6'
+                        key: {
+                            sys_ui_section: {
+                                id: '285dc414a3e443ddb945986defb138b3'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_share'
+                                    caption: 'Share Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.split'
+                            position: '3'
+                        }
+                    },
+                    {
                         table: 'ua_table_licensing_config'
                         id: 'eb953af2260340e0bbbcdc8c8e25bfb4'
                         key: {
                             name: 'x_144721_family_ex_expense_line'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'efc3c85c1f904951a5f9f5290f566b6d'
+                        key: {
+                            sys_ui_section: {
+                                id: 'c06708db6c1049609d64c30be6e66822'
+                                key: {
+                                    name: 'x_144721_family_ex_reimbursement_request'
+                                    caption: 'Request Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'state'
+                            position: '5'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'f1d4f444a433492d9b0b1f32d4e84624'
+                        key: {
+                            list_id: {
+                                id: 'bff4c339d5424e64943c8238675595c6'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'request'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'f43e1b9f19d54128a4d91136bac9c975'
+                        key: {
+                            sys_ui_section: {
+                                id: '438229533b364d1293f36a2f13e28ae5'
+                                key: {
+                                    name: 'x_144721_family_ex_expense_line'
+                                    caption: 'Expense Details'
+                                    view: {
+                                        id: 'Default view'
+                                        key: {
+                                            name: 'NULL'
+                                        }
+                                    }
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'request'
+                            position: '1'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_form'
+                        id: 'f4cfe00d7f0c4b0c8e3f1378bc0fd5ec'
+                        key: {
+                            name: 'x_144721_family_ex_expense_share'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
                         }
                     },
                     {
