@@ -67,6 +67,18 @@ npx @servicenow/sdk auth --add インスタンスURL
 npm install
 ```
 
+## データモデル案
+
+家庭内メンバーは ServiceNow の `sys_user` をそのまま利用します。申請テーブルは Task テーブルを拡張し、アプリ側では立替金精算に必要な最小限の3テーブルを定義します。
+
+| テーブル | 目的 | 主な項目 |
+|---------|------|----------|
+| `x_144721_family_ex_reimbursement_request` | Task を拡張した申請単位のヘッダー。Task 由来の申請番号を持ち、申請者・精算で支払う人・精算状態も Task 既存項目で管理します。 | 申請番号（Task 由来）、件名（Short description）、申請者（Requested by）、精算で支払う人（Assigned to）、状態（State）、アクティブ（Active）、備考 |
+| `x_144721_family_ex_expense_line` | 立替明細。1明細につき立替者は1名のみです。 | 申請、立替者、利用日、内容、立替金額、備考 |
+| `x_144721_family_ex_expense_share` | 明細ごとの負担内訳。負担する人ごとに1行作成します。 | 立替明細、負担する人、負担額、備考 |
+
+この構成では、申請に複数の立替明細をぶら下げ、各明細に複数の負担内訳を登録します。精算の実行はシンプルに、申請ヘッダーの「精算で支払う人（Assigned to）」「状態（State）」「アクティブ（Active）」で管理します。
+
 ## ビルドとデプロイ
 
 ### ビルド
@@ -91,7 +103,7 @@ npx @servicenow/sdk deploy --auth now-sdk-user
 sn-family-expenses/
 ├── src/
 │   ├── fluent/               # Fluent API関連
-│   │   ├── example.now.ts
+│   │   ├── family_expenses.now.ts
 │   │   └── generated/
 │   │       └── keys.ts
 │   ├── server/               # サーバーサイドコード
