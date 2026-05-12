@@ -1,4 +1,4 @@
-import { MultiLineTextColumn, OverrideColumn, Record, Table } from '@servicenow/sdk/core'
+import { OverrideColumn, Record, StringColumn, Table } from '@servicenow/sdk/core'
 
 export const x_144721_family_ex_reimbursement_request = Table({
     name: 'x_144721_family_ex_reimbursement_request',
@@ -37,7 +37,7 @@ export const x_144721_family_ex_reimbursement_request = Table({
             baseTable: 'task',
             default: 'true',
         }),
-        notes: MultiLineTextColumn({
+        notes: StringColumn({
             label: [
                 { language: 'en', label: 'Notes', plural: 'Notes' },
                 { language: 'ja', label: '備考', plural: '備考' },
