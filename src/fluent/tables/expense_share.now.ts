@@ -1,4 +1,4 @@
-import { DecimalColumn, MultiLineTextColumn, ReferenceColumn, Table } from '@servicenow/sdk/core'
+import { DecimalColumn, ReferenceColumn, StringColumn, Table } from '@servicenow/sdk/core'
 
 export const x_144721_family_ex_expense_share = Table({
     name: 'x_144721_family_ex_expense_share',
@@ -35,7 +35,7 @@ export const x_144721_family_ex_expense_share = Table({
             mandatory: true,
             scale: 2,
         }),
-        notes: MultiLineTextColumn({
+        notes: StringColumn({
             label: [
                 { language: 'en', label: 'Notes', plural: 'Notes' },
                 { language: 'ja', label: '備考', plural: '備考' },
