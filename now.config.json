@@ -1,0 +1,6 @@
+{
+  "scope": "x_144721_family_ex",
+  "scopeId": "58d09d8053bf46d4b8d59d68ad052073",
+  "name": "Family Expenses",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
