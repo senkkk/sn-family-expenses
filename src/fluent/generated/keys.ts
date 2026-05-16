@@ -19,6 +19,34 @@ declare global {
                         id: '373448d4b624474f96f6b7ff6c650d4a'
                         deleted: true
                     }
+                    family_expenses_app_category: {
+                        table: 'sys_app_category'
+                        id: '67d58bedd40e47c9a3abb7b6ac3ef03e'
+                    }
+                    family_expenses_application_menu: {
+                        table: 'sys_app_application'
+                        id: '46b5e94e3ecd49e3a9a0908dff4dcfac'
+                    }
+                    family_expenses_configuration_separator_module: {
+                        table: 'sys_app_module'
+                        id: '05897eaf503245368963ff38c55f9cce'
+                    }
+                    family_expenses_expense_lines_module: {
+                        table: 'sys_app_module'
+                        id: '5ea9bf7237b74279842fd91a87466b43'
+                    }
+                    family_expenses_expense_shares_module: {
+                        table: 'sys_app_module'
+                        id: 'c09925a8cf094bc28e941bccab16c073'
+                    }
+                    family_expenses_properties_module: {
+                        table: 'sys_app_module'
+                        id: 'f350023c73d547748d37972234f2e4f1'
+                    }
+                    family_expenses_reimbursement_requests_module: {
+                        table: 'sys_app_module'
+                        id: '32f40421ffd240158a8ef6384d7ffecf'
+                    }
                     package_json: {
                         table: 'sys_module'
                         id: '04fad376c98441c2b9f57229d24fc641'
